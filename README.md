@@ -10,6 +10,12 @@ This plugin requires Craft CMS 4.4.1 or later, and PHP 8.0.2 or later.
 
 You can install this plugin from the Plugin Store or with Composer.
 
+## Usage
+```gql
+videoWidth: url @get_width
+videoHeight: url @get_height
+```
+
 #### From the Plugin Store
 
 Go to the Plugin Store in your project’s Control Panel and search for “Simple Video Sizes”. Then press “Install”.
