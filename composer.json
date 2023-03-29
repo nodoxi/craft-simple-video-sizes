@@ -1,0 +1,40 @@
+{
+    "name": "nodoxi/craft-simple-video-sizes",
+    "description": "Gets data from video and saves to standard fields",
+    "type": "craft-plugin",
+    "license": "mit",
+    "support": {
+        "email": "nodoxi@gmail.com",
+        "issues": "https://github.com/nodoxi/craft-simple-video-sizes.git/issues?state=open",
+        "source": "https://github.com/nodoxi/craft-simple-video-sizes.git",
+        "docs": "https://github.com/nodoxi/craft-simple-video-sizes.git",
+        "rss": "https://github.com/nodoxi/craft-simple-video-sizes.git/releases.atom"
+    },
+    "require": {
+        "php": ">=8.0.2",
+        "craftcms/cms": "^4.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "nodoxi\\craftsimplevideosizes\\": "src/"
+        }
+    },
+    "extra": {
+        "handle": "simple-video-sizes",
+        "name": "Simple Video Sizes",
+        "developer": "nodoxi",
+        "documentationUrl": "https://github.com/nodoxi/craft-simple-video-sizes.git",
+        "class": "nodoxi\\craftsimplevideosizes\\SimpleVideoSizes"
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "8.0.2"
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    }
+}
+
